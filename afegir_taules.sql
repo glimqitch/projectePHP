@@ -1,0 +1,16 @@
+CREATE TABLE sonic (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    release_year INT DEFAULT 0,
+    platform VARCHAR(255) NOT NULL,
+    genre VARCHAR(255) NOT NULL,
+    developer VARCHAR(255) NOT NULL,
+    releaseYear INT DEFAULT NULL
+);
+
+CREATE TABLE books (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    releaseYear INT NOT NULL
+);
